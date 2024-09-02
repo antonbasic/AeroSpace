@@ -201,6 +201,8 @@ let modifiersMap: [String: NSEvent.ModifierFlags] = [
     "alt": .option,
     "ctrl": .control,
     "cmd": .command,
+    "meh": [.shift, .option, .control],
+    "hyper": [.command, .shift, .option, .control],
 ]
 
 extension NSEvent.ModifierFlags {
